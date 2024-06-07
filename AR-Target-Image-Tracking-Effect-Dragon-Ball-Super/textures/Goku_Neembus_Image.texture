@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Goku_Neembus_Image",
+  "identifier": "texture:97663-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "cf87c325d159254f95e05e7dd13441ef",
+  "assetLocator": "textures/Goku_Neembus_Image.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:97665-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+    "textureExportConfig:97667-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+    "textureExportConfig:97669-3e68433f-498c-4a4d-bdf9-736aa5d9d59d"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 748,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "cf87c325d159254f95e05e7dd13441ef",
+      "colorCount": 29602,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.234483641509352,
+      "pixelsHigh": 1024,
+      "pixelsWide": 748
+    }
+  ]
+}
