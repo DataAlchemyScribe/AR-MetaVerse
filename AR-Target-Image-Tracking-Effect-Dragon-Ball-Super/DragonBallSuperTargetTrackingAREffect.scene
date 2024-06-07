@@ -1,0 +1,380 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:92176-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:92236-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:92238-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "world_tracker",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:92240-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "ambient_light_source_model",
+                  "name": "ambientLight0",
+                  "identifier": "ambient_light_source_model:92248-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.20000000298023224,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "directional_light_source_model",
+                  "name": "directionalLight0",
+                  "identifier": "directional_light_source_model:92250-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.800000011920929,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.7853981633974483,
+                    "ry": 0.08726646259971647,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.03,
+                    "y": 0.25,
+                    "z": 0.3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:92242-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": true,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "default",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "modelName": "moving_target_tracker_model",
+      "name": "Dragon_Ball_Super_Logo_Target",
+      "identifier": "moving_target_tracker_model:94652-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back",
+      "depth": 0.10000000149011612,
+      "height": 0.10000000149011612,
+      "hidden": false,
+      "isStaticTarget": false,
+      "isTargetTextureIdentifierEnabled": false,
+      "largerArcEndX": 512,
+      "largerArcEndY": 512,
+      "largerRadius": 0.10000000149011612,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "patternType": "plane",
+      "physicsEnabled": false,
+      "shouldRecognize": false,
+      "smallerArcEndX": 512,
+      "smallerArcEndY": 512,
+      "smallerRadius": 0.10000000149011612,
+      "tags": [],
+      "targetTextureIdentifier": "texture:92499-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+      "targetWidth": 0.30000001192092896,
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "upgradedFromFixed": false,
+      "width": 0.10000000149011612,
+      "children": [
+        {
+          "modelName": "audiosource",
+          "name": "Speaker - Music",
+          "identifier": "audiosource:216368-9cbc50f0-eaae-45a9-b70a-bee4735a46ce",
+          "ambient": false,
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "backedByPlaybackController": true,
+          "cameraVisibility": "back",
+          "distanceToMaxVolume": 0.2,
+          "distanceToMinVolume": 4,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "manualAudioOverrideEnableCapture": "no_override",
+          "manualAudioOverrideEnableRender": "no_override",
+          "needsContinuousLooping": true,
+          "needsContinuousPlaying": true,
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "playbackControllerIdentifier": "audios/Music Controller.audioctrl",
+          "sound": "sound:216192-9cbc50f0-eaae-45a9-b70a-bee4735a46ce",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "type": "playback_controller",
+          "vocoderInput": false,
+          "volume": 0.35000000000000003,
+          "volumeMax": 1,
+          "volumeMin": 0,
+          "children": [
+            {
+              "modelName": "audioTransforms",
+              "identifier": "audioTransforms:216370-9cbc50f0-eaae-45a9-b70a-bee4735a46ce"
+            }
+          ]
+        },
+        {
+          "modelName": "plane",
+          "name": "Goku_Shenron_Image",
+          "identifier": "plane:94780-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "horizontalAlignment": "center",
+          "horizontalSpacing": 0,
+          "isMaterialIdentifierEnabled": true,
+          "layerIdentifier": "layer0",
+          "materialIdentifier": "defaultMaterial:94788-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "textureHeight": 0.1,
+          "textureWidth": 0.1,
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 2.5,
+            "sy": 2.5,
+            "sz": 2.5,
+            "x": 0,
+            "y": 0,
+            "z": 0.15000000596046448
+          },
+          "verticalAlignment": "center",
+          "verticalSpacing": 0
+        },
+        {
+          "modelName": "plane",
+          "name": "Goku_Neembus_Image",
+          "identifier": "plane:97657-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "horizontalAlignment": "center",
+          "horizontalSpacing": 0,
+          "isMaterialIdentifierEnabled": true,
+          "layerIdentifier": "layer0",
+          "materialIdentifier": "defaultMaterial:97675-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "textureHeight": 0.1,
+          "textureWidth": 0.1,
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1.5,
+            "sy": 1.5,
+            "sz": 1.5,
+            "x": 0,
+            "y": 0.23000000417232513,
+            "z": 0
+          },
+          "verticalAlignment": "center",
+          "verticalSpacing": 0
+        }
+      ]
+    }
+  ]
+}

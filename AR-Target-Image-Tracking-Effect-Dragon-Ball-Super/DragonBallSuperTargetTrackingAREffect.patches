@@ -1,0 +1,289 @@
+{
+  "id": "92160222375bedff141bba4dfd2f7cc5157ca",
+  "revision": "949193e68433f498c4a4dbdf9736aa5d9d59d",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 173
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 173
+  },
+  "visual_programming": {
+    "comments": [
+      {
+        "modelName": "patch_comment_block_model",
+        "name": "Floating_Animation_of_Goku_Neembus_Image",
+        "identifier": "patch_comment_block_model:92975-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "color": "Blue",
+        "container": "patch_graph:92252-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+        "frame": [
+          -2331,
+          21,
+          1028,
+          197
+        ]
+      },
+      {
+        "modelName": "patch_comment_block_model",
+        "name": "Floating_Animation_of_Goku_Shenron_Image",
+        "identifier": "patch_comment_block_model:97655-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "color": "Green",
+        "container": "patch_graph:92252-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+        "frame": [
+          -2331,
+          -219,
+          1029,
+          210
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:92971-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "fromPatch": "template_patch_model:92965-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:92969-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:92973-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "fromPatch": "template_patch_model:92969-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:92967-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:97511-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "fromPatch": "template_patch_model:97505-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:97509-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:97513-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "fromPatch": "template_patch_model:97509-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:97507-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:92252-222375be-dff1-41bb-a4df-d2f7cc5157ca",
+        "subpatches": [
+          "consumer_patch_model:92967-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+          "consumer_patch_model:97507-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "template_patch_model:92965-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+          "template_patch_model:92969-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+          "template_patch_model:97505-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+          "template_patch_model:97509-3e68433f-498c-4a4d-bdf9-736aa5d9d59d"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Goku_Neembus_Image",
+        "identifier": "consumer_patch_model:92967-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "object": "plane:97657-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "objectProperty": "position",
+        "position": [
+          -1660,
+          68
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0.23000000417232513,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Goku_Shenron_Image",
+        "identifier": "consumer_patch_model:97507-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "object": "plane:94780-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "objectProperty": "position",
+        "position": [
+          -1660,
+          -148
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0.15000000596046448
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:92965-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "position": [
+          -2308,
+          44
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 4
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:92969-deb67d6a-221a-49d5-9997-85f47ab01e0e",
+        "position": [
+          -2044,
+          44
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.13,
+                0.25,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -0.13,
+                0.25,
+                0
+              ]
+            }
+          },
+          {
+            "port": "104",
+            "value": {
+              "t": "int",
+              "v": 6
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:97505-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "position": [
+          -2284,
+          -172
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          },
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:97509-3e68433f-498c-4a4d-bdf9-736aa5d9d59d",
+        "position": [
+          -2044,
+          -172
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0.1
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0.3
+              ]
+            }
+          },
+          {
+            "port": "104",
+            "value": {
+              "t": "int",
+              "v": 6
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      }
+    ]
+  }
+}
