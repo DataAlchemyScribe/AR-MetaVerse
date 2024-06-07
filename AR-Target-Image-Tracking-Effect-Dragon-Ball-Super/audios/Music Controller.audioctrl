@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "Music Controller",
+  "identifier": "playback_controller_model:216194-9cbc50f0-eaae-45a9-b70a-bee4735a46ce",
+  "needsContinuousLooping": true,
+  "needsContinuousPlaying": true,
+  "soundIdentifier": "sound:216192-9cbc50f0-eaae-45a9-b70a-bee4735a46ce"
+}
