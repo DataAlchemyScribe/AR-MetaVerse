@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Face_Texture_Tattoo",
+  "identifier": "texture:91923-b9c768ec-2ff8-44c1-bea7-af9fc490389c",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "c9299174377242fabafba252009aea8e",
+  "assetLocator": "textures/Face_Texture_Tattoo.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:92081-b9c768ec-2ff8-44c1-bea7-af9fc490389c",
+    "textureExportConfig:92083-b9c768ec-2ff8-44c1-bea7-af9fc490389c",
+    "textureExportConfig:92085-b9c768ec-2ff8-44c1-bea7-af9fc490389c"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "c9299174377242fabafba252009aea8e",
+      "colorCount": 11242,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.448354491541636,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
