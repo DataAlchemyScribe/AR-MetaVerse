@@ -46,5 +46,7 @@ Ready to dive into the world of augmented reality? Follow these steps to experie
 
 **DBS ✨** (AR Target-Image Tracking Effect - Dragon Ball Super) - https://www.instagram.com/ar/7000367580022491/
 
+**HalloweenSpookyGaze** (AR Effect - Halloween Special) - https://www.instagram.com/ar/772406438345679/
+
 ## Note
 Remember that this repository is primarily for educational purposes. Use these effects to learn, experiment, and spread joy. If you create something cool, share it with the community!
