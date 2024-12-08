@@ -1,0 +1,1324 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:18-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "hitTestingEnabled": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:74-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "hitTestingEnabled": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:76-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "hitTestingEnabled": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "gyro",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:78-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "hitTestingEnabled": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "ambient_light_source_model",
+                  "name": "ambientLight0",
+                  "identifier": "ambient_light_source_model:84-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "intensity": 0.20000000298023224,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "directional_light_source_model",
+                  "name": "directionalLight0",
+                  "identifier": "directional_light_source_model:86-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "intensity": 0.800000011920929,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0.05000000074505806,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.7853981633974483,
+                    "ry": 0.08726646259971647,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.03,
+                    "y": 0.25,
+                    "z": 0.3
+                  }
+                },
+                {
+                  "modelName": "block_scene_model",
+                  "name": "headOccluder",
+                  "identifier": "block_scene_model:223161-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "customPortValues": {
+                    "block_input_port_model:11724-88ae8bb2-7185-4aa6-9deb-199e6776ef88": {
+                      "t": "double",
+                      "v": 0
+                    }
+                  },
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "facetracker",
+                  "name": "TattoofaceTracker",
+                  "identifier": "facetracker:2372-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "facehigh",
+                      "name": "Face_Tattoo",
+                      "identifier": "facehigh:2370-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "drawHalo": false,
+                      "drivingTrackerIdentifier": "facetracker:2372-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "eyesMode": "empty",
+                      "faceDistortionMode": "vertex",
+                      "faceId": 0,
+                      "faceMeshResolution": "high",
+                      "hidden": false,
+                      "hitTestingEnabled": false,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "colorPaintMaterial:2650-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "mouthMode": "empty",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "children": [
+                        {
+                          "modelName": "blend_shapes_model",
+                          "identifier": "blend_shapes_model:2374-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "composition_model",
+                  "name": "BackGroundFrameCanva",
+                  "identifier": "composition_model:1362-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "height": 545,
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "sizingMode": "full_screen",
+                  "spaceMode": "camera_space",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 0.0009174311999231577,
+                    "sy": 0.0009174311999231577,
+                    "sz": 0.0009174311999231577,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "width": 326,
+                  "children": [
+                    {
+                      "modelName": "rectangle_model",
+                      "name": "Frame_BackGround",
+                      "identifier": "rectangle_model:1360-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "aspectRatioValue": 1,
+                      "cameraVisibility": "back|front",
+                      "fillMode": "none",
+                      "height": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 20
+                        },
+                        "value": 100
+                      },
+                      "hidden": false,
+                      "hitTestingEnabled": false,
+                      "horizontalAlignment": "center",
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "locksAspectRatio": false,
+                      "materialIdentifier": "defaultMaterial:1608-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "pinnedBottom": false,
+                      "pinnedBottomValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedHorizontalCenterValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedLeft": true,
+                      "pinnedLeftValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedRight": false,
+                      "pinnedRightValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedTop": true,
+                      "pinnedTopValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedVerticalCenterValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "positionX": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "positionY": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "rotation": 0,
+                      "scaleX": 1,
+                      "scaleY": 1,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "usesFlexibleHeight": true,
+                      "usesFlexibleWidth": true,
+                      "verticalAlignment": "center",
+                      "width": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 20
+                        },
+                        "value": 100
+                      }
+                    }
+                  ]
+                },
+                {
+                  "modelName": "facetracker",
+                  "name": "PumpkinRotationfaceTracker",
+                  "identifier": "facetracker:228287-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "hitTestingEnabled": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "sceneObject",
+                      "name": "RotationHandlingnullObject",
+                      "identifier": "sceneObject:228777-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "hidden": false,
+                      "hitTestingEnabled": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
+                      "tags": [],
+                      "transform": {
+                        "rx": 3.725290742551124E-9,
+                        "ry": -3.725290298461914E-9,
+                        "rz": -1.257285475730896E-8,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 0.9999999403953552,
+                        "x": -0.0319109708070755,
+                        "y": 0.07453889399766922,
+                        "z": -0.09764063358306885
+                      },
+                      "children": [
+                        {
+                          "modelName": "3_d_object_instance_model",
+                          "name": "Halloween pumpkin 1",
+                          "identifier": "master3_d_object_model:228890-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "sourceIdentifier": "master3_d_object_model:223359-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "depth": 269.44696044921875,
+                          "height": 191.44618225097656,
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "tags": [],
+                          "transform": {
+                            "rx": -1.570796251296997,
+                            "ry": -4.850639001574564E-9,
+                            "rz": -7.1546923940957186E-9,
+                            "sx": 0.029999999329447746,
+                            "sy": 0.029999997466802597,
+                            "sz": 0.029999997466802597,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.15000000596046448
+                          },
+                          "width": 268.5587463378906,
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "8fa5a9c4e5ed408a84db98856280a0ec.fbx",
+                              "identifier": "sceneObject:228899-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "sourceIdentifier": "sceneObject:223341-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 1.5707963705062866,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "RootNode",
+                                  "identifier": "sceneObject:228902-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "sourceIdentifier": "sceneObject:223343-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Pumpkin",
+                                      "identifier": "sceneObject:228905-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "sourceIdentifier": "sceneObject:223345-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": -8.23013845727247E-16,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "mesh",
+                                          "name": "Pumpkin_Mat.1_0",
+                                          "identifier": "mesh:228908-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "sourceIdentifier": "mesh:223347-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "castShadow": false,
+                                          "hidden": false,
+                                          "hitTestingEnabled": false,
+                                          "layerIdentifier": "layer0",
+                                          "nodeName": "Pumpkin_Mat.1_0",
+                                          "numberOfFaces": 27434,
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "prefabIdentifier": "gltf:223351-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "receiveShadow": false,
+                                          "renderPass": "main_scene",
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                          },
+                                          "useEmbeddedBlendshapes": false,
+                                          "children": [
+                                            {
+                                              "modelName": "surfaces",
+                                              "identifier": "surfaces:228911-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "sourceIdentifier": "surfaces:223349-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "children": [
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface0",
+                                                  "identifier": "surface:228914-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223354-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                },
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface1",
+                                                  "identifier": "surface:228917-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223357-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "3_d_object_instance_model",
+                          "name": "Halloween pumpkin 2",
+                          "identifier": "3_d_object_instance_model:230252-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "sourceIdentifier": "master3_d_object_model:223359-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "depth": 269.44696044921875,
+                          "height": 191.44618225097656,
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "tags": [],
+                          "transform": {
+                            "rx": -1.570796251296997,
+                            "ry": -4.850639001574564E-9,
+                            "rz": -7.1546923940957186E-9,
+                            "sx": 0.029999999329447746,
+                            "sy": 0.029999997466802597,
+                            "sz": 0.029999997466802597,
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.15000000596046448
+                          },
+                          "width": 268.5587463378906,
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "8fa5a9c4e5ed408a84db98856280a0ec.fbx",
+                              "identifier": "sceneObject:230268-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "sourceIdentifier": "sceneObject:223341-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 1.5707963705062866,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "RootNode",
+                                  "identifier": "sceneObject:230248-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "sourceIdentifier": "sceneObject:223343-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Pumpkin",
+                                      "identifier": "sceneObject:230258-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "sourceIdentifier": "sceneObject:223345-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": -8.23013845727247E-16,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "mesh",
+                                          "name": "Pumpkin_Mat.1_0",
+                                          "identifier": "mesh:230246-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "sourceIdentifier": "mesh:223347-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "castShadow": false,
+                                          "hidden": false,
+                                          "hitTestingEnabled": false,
+                                          "layerIdentifier": "layer0",
+                                          "nodeName": "Pumpkin_Mat.1_0",
+                                          "numberOfFaces": 27434,
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "prefabIdentifier": "gltf:223351-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "receiveShadow": false,
+                                          "renderPass": "main_scene",
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                          },
+                                          "useEmbeddedBlendshapes": false,
+                                          "children": [
+                                            {
+                                              "modelName": "surfaces",
+                                              "identifier": "surfaces:230282-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "sourceIdentifier": "surfaces:223349-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "children": [
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface0",
+                                                  "identifier": "surface:230264-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223354-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                },
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface1",
+                                                  "identifier": "surface:230274-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223357-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "3_d_object_instance_model",
+                          "name": "Halloween pumpkin 3",
+                          "identifier": "3_d_object_instance_model:230379-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "sourceIdentifier": "master3_d_object_model:223359-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "depth": 269.44696044921875,
+                          "height": 191.44618225097656,
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "tags": [],
+                          "transform": {
+                            "rx": -1.570796251296997,
+                            "ry": -4.850639001574564E-9,
+                            "rz": -7.1546923940957186E-9,
+                            "sx": 0.029999999329447746,
+                            "sy": 0.029999997466802597,
+                            "sz": 0.029999997466802597,
+                            "x": 0.15000000596046448,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 268.5587463378906,
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "8fa5a9c4e5ed408a84db98856280a0ec.fbx",
+                              "identifier": "sceneObject:230389-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "sourceIdentifier": "sceneObject:223341-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 1.5707963705062866,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "RootNode",
+                                  "identifier": "sceneObject:230393-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "sourceIdentifier": "sceneObject:223343-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Pumpkin",
+                                      "identifier": "sceneObject:230391-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "sourceIdentifier": "sceneObject:223345-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": -8.23013845727247E-16,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "mesh",
+                                          "name": "Pumpkin_Mat.1_0",
+                                          "identifier": "mesh:230399-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "sourceIdentifier": "mesh:223347-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "castShadow": false,
+                                          "hidden": false,
+                                          "hitTestingEnabled": false,
+                                          "layerIdentifier": "layer0",
+                                          "nodeName": "Pumpkin_Mat.1_0",
+                                          "numberOfFaces": 27434,
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "prefabIdentifier": "gltf:223351-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "receiveShadow": false,
+                                          "renderPass": "main_scene",
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                          },
+                                          "useEmbeddedBlendshapes": false,
+                                          "children": [
+                                            {
+                                              "modelName": "surfaces",
+                                              "identifier": "surfaces:230395-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "sourceIdentifier": "surfaces:223349-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "children": [
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface0",
+                                                  "identifier": "surface:230397-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223354-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                },
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface1",
+                                                  "identifier": "surface:230401-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223357-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "3_d_object_instance_model",
+                          "name": "Halloween pumpkin 4",
+                          "identifier": "3_d_object_instance_model:230518-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "sourceIdentifier": "master3_d_object_model:223359-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "depth": 269.44696044921875,
+                          "height": 191.44618225097656,
+                          "hidden": false,
+                          "hitTestingEnabled": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "tags": [],
+                          "transform": {
+                            "rx": -1.570796251296997,
+                            "ry": -4.850639001574564E-9,
+                            "rz": -7.1546923940957186E-9,
+                            "sx": 0.029999999329447746,
+                            "sy": 0.029999997466802597,
+                            "sz": 0.029999997466802597,
+                            "x": -0.15000000596046448,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 268.5587463378906,
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "8fa5a9c4e5ed408a84db98856280a0ec.fbx",
+                              "identifier": "sceneObject:230512-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "sourceIdentifier": "sceneObject:223341-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "hitTestingEnabled": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 1.5707963705062866,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "RootNode",
+                                  "identifier": "sceneObject:230522-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "sourceIdentifier": "sceneObject:223343-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "hitTestingEnabled": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Pumpkin",
+                                      "identifier": "sceneObject:230536-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "sourceIdentifier": "sceneObject:223345-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "hitTestingEnabled": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": -8.23013845727247E-16,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "mesh",
+                                          "name": "Pumpkin_Mat.1_0",
+                                          "identifier": "mesh:230534-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "sourceIdentifier": "mesh:223347-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "castShadow": false,
+                                          "hidden": false,
+                                          "hitTestingEnabled": false,
+                                          "layerIdentifier": "layer0",
+                                          "nodeName": "Pumpkin_Mat.1_0",
+                                          "numberOfFaces": 27434,
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "prefabIdentifier": "gltf:223351-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                          "receiveShadow": false,
+                                          "renderPass": "main_scene",
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                          },
+                                          "useEmbeddedBlendshapes": false,
+                                          "children": [
+                                            {
+                                              "modelName": "surfaces",
+                                              "identifier": "surfaces:230540-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "sourceIdentifier": "surfaces:223349-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                              "children": [
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface0",
+                                                  "identifier": "surface:230532-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223354-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                },
+                                                {
+                                                  "modelName": "surface",
+                                                  "name": "surface1",
+                                                  "identifier": "surface:230548-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "sourceIdentifier": "surface:223357-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "isMaterialIdentifierEnabled": true,
+                                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:223327-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+                                                  "surfaceGroupIdentifier": "223355-f54b0b62-7de7-478b-8d12-b37c8c65af52"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:80-f54b0b62-7de7-478b-8d12-b37c8c65af52",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": false,
+          "hidden": false,
+          "hitTestingEnabled": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "default",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}
